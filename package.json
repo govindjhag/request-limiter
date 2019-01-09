@@ -1,0 +1,25 @@
+{
+  "name": "request-limiter",
+  "version": "1.0.0",
+  "description": "Node module to limit your request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govindjhag/request-limiter.git"
+  },
+  "keywords": [
+    "req-limiter",
+    "request-limiter",
+    "limiter-node-req"
+  ],
+  "author": "govind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govindjhag/request-limiter/issues"
+  },
+  "homepage": "https://github.com/govindjhag/request-limiter#readme",
+  "dependencies": {}
+}
