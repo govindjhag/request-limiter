@@ -1,6 +1,6 @@
 {
-  "name": "request-limiter",
-  "version": "1.0.0",
+  "name": "request-limiter-example-code-req-limiter",
+  "version": "1.0.2",
   "description": "Node module to limit your request",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,7 @@
     "url": "https://github.com/govindjhag/request-limiter/issues"
   },
   "homepage": "https://github.com/govindjhag/request-limiter#readme",
-  "dependencies": {}
+  "dependencies": {
+    "node-cache": "^4.2.0"
+  }
 }
