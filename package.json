@@ -1,6 +1,6 @@
 {
   "name": "request-limiter-example-code-req-limiter",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Node module to limit your request",
   "main": "index.js",
   "scripts": {

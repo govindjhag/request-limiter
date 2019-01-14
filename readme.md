@@ -6,7 +6,7 @@ This module expect two input
 2) request.path
 
 ## How to use request limiter in your route
-##### require('request-limiter-example-code-req-limiter'); 
+##### const req-handeler = require('request-limiter-example-code-req-limiter'); 
 
 `````{
             method: 'POST',
