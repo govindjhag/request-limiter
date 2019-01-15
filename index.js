@@ -4,23 +4,20 @@
 "use strict";
 const NodeCache = require( "node-cache" );
 const myCache = new NodeCache( { stdTTL: 10, checkperiod: 10 } );
-module.exports.init  = (request,reply) =>{
-
-    console.log(request);
+module.exports  = (request,reply) =>{
 
     let value = myCache.get( request.auth.credentials.contID+"_"+request.path );
-
 
     if ( value == undefined ){
 
         let obj = { "reqCount": 1 };
 
+        //cacheName will be unique for each user
+
         let cacheName = request.auth.credentials.contID+"_"+request.path;
         myCache.set( cacheName, obj, function( err, success ){
             if( !err && success ){
-                reply(success)
-                // true
-                // ... do something ...
+                reply({message:'Request is valid'});
             }
         });
     }else{
